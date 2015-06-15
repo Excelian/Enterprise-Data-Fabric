@@ -36,7 +36,7 @@ The solution is being developed with commercial vendors around the following ope
 * Trader desktop live view
 
 #### So what does it look like? (End product format)
-The format of the solution will map product specific features and functionality to usecases and phases of adoption. For example Couchbase will utlitise platform specific features such as XDR to achieve multi-tenancy, with Cassandra it may rely a different KeySpace. The adoption roadmap will map onto realworld usecases ranging from single-install, single-team-multi-environment, single-team-mutli-env with Analytics (Workload isolation) and so on. Various workload characteristics particular to to financial services will also be mapped out. For example Continuous Query caching to provide a live view of trader portfolio and streaming market data. 
+The format of the solution will map product specific features and functionality to usecases and phases of adoption. For example Couchbase will utlitise platform specific features such as XDR to achieve multi-tenancy between clusters, with Cassandra it may rely a different KeySpace. The adoption roadmap will map onto realworld usecases ranging from single-install, single-team-multi-environment, single-team-mutli-env with Analytics (Workload isolation) and so on. Various workload characteristics particular to to financial services will also be mapped out. For example Continuous Query caching to provide a live view of trader portfolio and streaming market data. 
 
 A final product offering for each DataPlatform is to be made available via docker.
 
