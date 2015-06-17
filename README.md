@@ -11,14 +11,14 @@ The solution is being developed with commercial vendors around the following ope
 * Mongodb
 
 ####High level non-functional requirements:
-* Caching (*): A highly scalable data caching layer: Compute engines cannot afford the chatter or repeated request for data required to build pricing environments. 
-* Eventing(*): Data Eventing supports the notion that a consumer can receives notifications that data has changed, or even the data itself.
-*	Java/.NET/Restful APIs: Requesting data need to facilitate standardised technology stacks, including language or API convention (*)
 *	Security: Use/Role bases access
 *	Multi-tenancy: Support multiple schema sets
 *	Workload Isolation: Separate different types of processing, querying
 *	Geo-locale data gravity: Making data sticky to locations 
 *	Multi-site/datacentre data awareness: Making data flow to regions based upon attributes
+*	Caching (*): A highly scalable data caching layer: Compute engines cannot afford the chatter or repeated request for data required to build pricing environments. 
+* Eventing(*): Data Eventing supports the notion that a consumer can receives notifications that data has changed, or even the data itself.
+*	Java/.NET/Restful APIs (*): Requesting data need to facilitate standardised technology stacks, including language or API convention
 
 (*) represent features being developed using the OpenSource DataGridforNoSQL platform.
 
