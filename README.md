@@ -47,9 +47,9 @@ First Draft Adoption Roadmap
  * Data OLAP using Spark/SparkSQL
 
 A final product offering for each DataPlatform will:
-1. Product mapping to core functional requirements (i.e. multi-tenancy, security, data centre) [Base Patterns]
-2. Adoption/roadmap i.e. single-team, single [as above]
-3. Turnkey solutions/implementations for each adoption phase
+ 1. Product mapping to core functional requirements (i.e. multi-tenancy, security, data centre) [Base Patterns]
+ 1. Adoption/roadmap i.e. single-team, single [as above]
+ 1. Turnkey solutions/implementations for each adoption phase
 
 nb: functional gaps will be mapped at each stage and available via github-projects
 
