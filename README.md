@@ -27,7 +27,7 @@ The solution is being developed with commercial vendors around the following ope
 *	Data-gravity – large scale deployments
 *	Multi-site awareness – conflict resolution
 
-#### Usecases
+#### Targeted Usecases
 * Hybrid cloud
 * Compute-Grid-Nearside caching
 * DEV, UAT, PROD environment sharing
@@ -38,7 +38,20 @@ The solution is being developed with commercial vendors around the following ope
 #### So what does it look like? (End product format)
 The format of the solution will map product specific features and functionality to usecases and phases of adoption. For example Couchbase will utlitise platform specific features such as XDR to achieve multi-tenancy between clusters, with Cassandra it may rely a different KeySpace. The adoption roadmap will map onto realworld usecases ranging from single-install, single-team-multi-environment, single-team-mutli-env with Analytics (Workload isolation) and so on. Various workload characteristics particular to to financial services will also be mapped out. For example Continuous Query caching to provide a live view of trader portfolio and streaming market data. 
 
-A final product offering for each DataPlatform is to be made available via docker.
+First Draft Adoption Roadmap
+ * Base: single-install, single-team-multi-environment, multi-team-mutli-env, multi-team-multi-dc
+ * Cloud: Hybrid-cloud, Public Cloud
+ * FS General: Compute-grid, Enterprise Cache
+ * FS Gemeral: Trade/Market repository with Spark streaming feed (via Kafka)
+ * Data Repository from Messaging feed with replay capability
+ * Data OLAP using Spark/SparkSQL
+
+A final product offering for each DataPlatform will:
+1. Product mapping to core functional requirements (i.e. multi-tenancy, security, data centre) [Base Patterns]
+2. Adoption/roadmap i.e. single-team, single [as above]
+3. Turnkey solutions/implementations for each adoption phase
+
+nb: functional gaps will be mapped at each stage and available via github-projects
 
 ### The goal is to provide enterprise grade, low-latency and scalable access to data that doesn’t crush the storage layer.
 
