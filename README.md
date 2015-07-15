@@ -42,7 +42,7 @@ First Draft Adoption Roadmap
  * Base: single-install, single-team-multi-environment, multi-team-mutli-env, multi-team-multi-dc
  * Cloud: Hybrid-cloud, Public Cloud
  * FS General: Compute-grid, Enterprise Cache
- * FS Gemeral: Trade/Market repository with Spark streaming feed (via Kafka)
+ * FS General: Trade/Market repository with Spark streaming feed (via Kafka)
  * Data Repository from Messaging feed with replay capability
  * Data OLAP using Spark/SparkSQL
 
